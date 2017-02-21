@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.amap.api.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:clickable="true">
+    </com.amap.api.maps.MapView>
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:id="@+id/tvLocation"
+        android:textColor="#fff"
+        android:background="#22000000"/>
+
+</RelativeLayout>
